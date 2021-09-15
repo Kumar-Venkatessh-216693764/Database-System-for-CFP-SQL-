@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootPane" prefHeight="750.0" prefWidth="750.0" style="-fx-background-color: a0a7cc;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Q2_216693764">
+   <children>
+      <Label fx:id="screen" alignment="CENTER" layoutX="288.0" layoutY="51.0" text="Question 2" AnchorPane.leftAnchor="288.0" AnchorPane.rightAnchor="288.5">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Button fx:id="back" layoutX="63.0" layoutY="47.0" mnemonicParsing="false" onAction="#BackAction" prefHeight="35.0" prefWidth="75.0" text="Back" AnchorPane.leftAnchor="63.0" AnchorPane.rightAnchor="562.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="queryA" layoutX="300.0" layoutY="298.0" mnemonicParsing="false" onAction="#QueryAAction" prefHeight="40.0" prefWidth="100.0" text="Query A" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="300.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="queryB" layoutX="300.0" layoutY="404.0" mnemonicParsing="false" onAction="#QueryBAction" prefHeight="40.0" prefWidth="100.0" text="Query B" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="300.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Label fx:id="label1" alignment="CENTER" layoutX="220.0" layoutY="114.0" text="Choose a query to continue" textAlignment="CENTER" AnchorPane.leftAnchor="220.0" AnchorPane.rightAnchor="221.0">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="conferenceLabel" layoutX="301.0" layoutY="195.0" prefHeight="26.0" prefWidth="148.0" text="EventConference" AnchorPane.leftAnchor="301.0" AnchorPane.rightAnchor="301.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="bookLabel" alignment="CENTER" layoutX="330.0" layoutY="515.0" text="EventBook" AnchorPane.leftAnchor="330.0" AnchorPane.rightAnchor="329.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="journalLabel" layoutX="320.0" layoutY="355.0" text="EventJournal" AnchorPane.leftAnchor="320.0" AnchorPane.rightAnchor="320.5">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ListView fx:id="conferenceList" layoutX="75.0" layoutY="227.0" prefHeight="100.0" prefWidth="600.0" AnchorPane.leftAnchor="75.0" AnchorPane.rightAnchor="75.0" />
+      <ListView fx:id="journalList" layoutX="75.0" layoutY="392.0" prefHeight="100.0" prefWidth="600.0" AnchorPane.leftAnchor="75.0" AnchorPane.rightAnchor="75.0" />
+      <ListView fx:id="bookList" layoutX="75.0" layoutY="547.0" prefHeight="100.0" prefWidth="600.0" AnchorPane.leftAnchor="75.0" AnchorPane.rightAnchor="75.0" />
+      <Button fx:id="change" layoutX="297.0" layoutY="669.0" mnemonicParsing="false" onAction="#ChangeAction" prefHeight="40.0" prefWidth="155.0" text="Change Query" AnchorPane.leftAnchor="297.0" AnchorPane.rightAnchor="298.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
